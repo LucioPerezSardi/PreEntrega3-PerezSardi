@@ -51,4 +51,7 @@
 // scss-docs-end import-stack
 
 //Mi partial sass
-@import "mi_sass"
+@import "mis_variables";
+@import "mi_sass_general";
+@import "mi_header";
+@import "mis_bucles";

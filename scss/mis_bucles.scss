@@ -1,0 +1,9 @@
+//bucles para crear clases
+
+//.width-numero_de_pixeles
+@for $i from 1 through 100{
+    .width-px-#{$i*5}{
+        width: 5px * $i;
+        height: auto;
+    }
+}
