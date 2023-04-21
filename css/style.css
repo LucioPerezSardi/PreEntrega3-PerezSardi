@@ -10719,10 +10719,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: rgb(21, 21, 21);
-}
-
 .width-px-5 {
   width: 5px;
   height: auto;
@@ -11221,6 +11217,74 @@ body {
 .width-px-500 {
   width: 500px;
   height: auto;
+}
+
+.txt-negro {
+  color: rgb(21, 21, 21);
+}
+
+.bg-negro {
+  background: rgb(21, 21, 21);
+}
+
+.txt-blanco {
+  color: white;
+}
+
+.bg-blanco {
+  background: white;
+}
+
+.txt-color-ppal {
+  color: hsl(136, 57%, 30%);
+}
+
+.bg-color-ppal {
+  background: hsl(136, 57%, 30%);
+}
+
+.txt-color-sec {
+  color: rgb(2, 90, 50);
+}
+
+.bg-color-sec {
+  background: rgb(2, 90, 50);
+}
+
+.txt-color-ter {
+  color: rgb(32, 149, 97);
+}
+
+.bg-color-ter {
+  background: rgb(32, 149, 97);
+}
+
+.txt-dark-green {
+  color: rgb(22, 71, 60);
+}
+
+.bg-dark-green {
+  background: rgb(22, 71, 60);
+}
+
+.txt-neon-green {
+  color: rgb(24, 220, 40);
+}
+
+.bg-neon-green {
+  background: rgb(24, 220, 40);
+}
+
+.txt-gris {
+  color: rgb(94, 94, 94);
+}
+
+.bg-gris {
+  background: rgb(94, 94, 94);
+}
+
+body {
+  background-color: rgb(21, 21, 21);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,3 +7,23 @@
         height: auto;
     }
 }
+
+//each para colores
+$color-array:(
+            "negro":$negro,                                   
+            "blanco":$blanco,
+            "color-ppal":$color-ppal,
+            "color-sec":$color-sec,
+            "color-ter":$color-ter,
+            "dark-green":$dark-green,
+            "neon-green":$neon-green,
+            "gris":$gris
+        );
+@each $color-name, $color-value in $color-array{
+    .txt-#{$color-name}{
+        color: $color-value;
+    }
+    .bg-#{$color-name}{
+        background: $color-value;
+    }
+}
