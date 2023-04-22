@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=IBM+Plex+Sans:wght@300;500&family=Lato:wght@300&family=Marcellus&family=Merriweather&family=Mukta:wght@200;800&family=Open+Sans:ital,wght@1,600&family=Raleway:wght@500&family=Roboto+Mono&family=Source+Sans+3:wght@300&family=Source+Sans+Pro:ital,wght@0,600;0,900;1,400&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3686,10 +3687,6 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
-  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
-  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
@@ -3748,6 +3745,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  align-items: center;
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
@@ -11285,6 +11283,56 @@ textarea.form-control-lg {
 
 body {
   background-color: rgb(21, 21, 21);
+}
+
+header {
+  background-color: rgb(21, 21, 21);
+}
+
+.mi-navlink {
+  display: block;
+  padding: 10px;
+  font-size: 0.85em;
+  font-family: "Marcellus", serif;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.mi-navlink:hover {
+  color: hsl(136, 57%, 30%);
+  border-radius: 10px;
+  background-color: rgb(24, 24, 24);
+}
+@media (min-width: 1024px) {
+  .mi-navlink:hover {
+    letter-spacing: 0.5px;
+  }
+}
+.mi-navlink:active {
+  color: hsl(136, 57%, 30%);
+  border-radius: 10px;
+  transform: translateY(3px);
+  transition: 100ms;
+  background-color: rgb(24, 24, 24);
+}
+@media (min-width: 1024px) {
+  .mi-navlink:active {
+    letter-spacing: 0.5px;
+  }
+}
+
+.mi-navlogo {
+  display: block;
+  width: auto;
+  height: 1.7em;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.mi-navlogo:hover {
+  color: hsl(136, 57%, 30%);
+  width: 1.8em;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

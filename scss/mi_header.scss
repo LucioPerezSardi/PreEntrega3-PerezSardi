@@ -1,0 +1,42 @@
+
+//Header
+header{background-color: $negro;}
+
+//navbar
+.mi-navlink{
+    display: block;
+    padding: 10px;
+    font-size: 0.85em;
+    font-family: 'Marcellus', serif;
+    color: $blanco;
+    text-decoration: none;
+    transition: all .5s ease;
+    &:hover{
+        color: $color-ppal;
+        @media (min-width:1024px){letter-spacing: 0.5px;}
+        border-radius: 10px;
+        background-color: $darkest;
+    }
+    &:active{
+        @media (min-width:1024px){letter-spacing: 0.5px;}
+        color: $color-ppal;
+        border-radius: 10px;
+        transform: translateY(3px);
+        transition: 100ms;
+        background-color: $darkest;
+    }      
+}
+
+.mi-navlogo{
+    display: block;
+    width: auto;
+    height: 1.7em;
+    color: $blanco;
+    text-decoration: none;
+    transition: all .5s ease;
+    &:hover{
+        color: $color-ppal;
+        width: 1.8em;
+        height: auto;
+    }      
+}
