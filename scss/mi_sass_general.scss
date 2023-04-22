@@ -1,3 +1,16 @@
 //General
 
-body{background-color: $negro;}
+body{
+    background-color: $negro;
+    color: $blanco;
+}
+
+//whatsapp logo
+.wp{width: 3em;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    border-radius: 100%;
+    transition: all .5s ease;
+    &:hover{width: 3.5em;}
+}
