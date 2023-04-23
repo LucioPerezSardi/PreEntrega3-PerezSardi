@@ -7,11 +7,37 @@
         height: auto;
     }
 }
+
 @for $i from 0 through 100{
-    .mb-#{$i*5}{
+    .m-px-#{$i*5}{
+        margin: 5px * $i;
+    }
+}
+
+@for $i from 0 through 100{
+    .mb-px-#{$i*5}{
         margin-bottom: 5px * $i;
     }
 }
+
+@for $i from 0 through 100{
+    .my-px-#{$i*5}{
+        margin: 5px * $i 0;
+    }
+}
+
+@for $i from 0 through 100{
+    .mx-px-#{$i*5}{
+        margin: 0 5px * $i;
+    }
+}
+
+@for $i from 0 through 100{
+    .p-px-#{$i*5}{
+        padding: 5px * $i;
+    }
+}
+
 //each para colores
 $color-array:(
             "negro":$negro,                                   
@@ -21,7 +47,8 @@ $color-array:(
             "color-ter":$color-ter,
             "dark-green":$dark-green,
             "neon-green":$neon-green,
-            "gris":$gris
+            "gris":$gris,
+            "blanco-sucio":$blanco-sucio
         );
 @each $color-name, $color-value in $color-array{
     .txt-#{$color-name}{
@@ -29,6 +56,9 @@ $color-array:(
     }
     .bg-#{$color-name}{
         background: $color-value;
+    }
+    .hover-#{$color-name}:hover{
+        color: $color-value;
     }
 }
 
@@ -48,4 +78,11 @@ $color-array:(
 }
 .flex-column-center{
     @include flex-column-center;
+}
+.flex-row-center{
+    @include flex-row-center;
+}
+.flex-row-start{
+    @extend .flex-row-center;
+    justify-content: flex-start;
 }
