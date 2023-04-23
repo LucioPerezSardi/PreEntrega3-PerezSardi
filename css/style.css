@@ -13486,4 +13486,11 @@ header {
   height: auto;
 }
 
+.scale {
+  transition: all 0.5s ease;
+}
+.scale:hover {
+  transform: scale(1.2, 1.2);
+}
+
 /*# sourceMappingURL=style.css.map */
