@@ -629,8 +629,6 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
 }
@@ -661,7 +659,7 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 0;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -12429,6 +12427,410 @@ textarea.form-control-lg {
   margin: 500px 0;
 }
 
+.py-px-0 {
+  padding: 0px 0;
+}
+
+.py-px-5 {
+  padding: 5px 0;
+}
+
+.py-px-10 {
+  padding: 10px 0;
+}
+
+.py-px-15 {
+  padding: 15px 0;
+}
+
+.py-px-20 {
+  padding: 20px 0;
+}
+
+.py-px-25 {
+  padding: 25px 0;
+}
+
+.py-px-30 {
+  padding: 30px 0;
+}
+
+.py-px-35 {
+  padding: 35px 0;
+}
+
+.py-px-40 {
+  padding: 40px 0;
+}
+
+.py-px-45 {
+  padding: 45px 0;
+}
+
+.py-px-50 {
+  padding: 50px 0;
+}
+
+.py-px-55 {
+  padding: 55px 0;
+}
+
+.py-px-60 {
+  padding: 60px 0;
+}
+
+.py-px-65 {
+  padding: 65px 0;
+}
+
+.py-px-70 {
+  padding: 70px 0;
+}
+
+.py-px-75 {
+  padding: 75px 0;
+}
+
+.py-px-80 {
+  padding: 80px 0;
+}
+
+.py-px-85 {
+  padding: 85px 0;
+}
+
+.py-px-90 {
+  padding: 90px 0;
+}
+
+.py-px-95 {
+  padding: 95px 0;
+}
+
+.py-px-100 {
+  padding: 100px 0;
+}
+
+.py-px-105 {
+  padding: 105px 0;
+}
+
+.py-px-110 {
+  padding: 110px 0;
+}
+
+.py-px-115 {
+  padding: 115px 0;
+}
+
+.py-px-120 {
+  padding: 120px 0;
+}
+
+.py-px-125 {
+  padding: 125px 0;
+}
+
+.py-px-130 {
+  padding: 130px 0;
+}
+
+.py-px-135 {
+  padding: 135px 0;
+}
+
+.py-px-140 {
+  padding: 140px 0;
+}
+
+.py-px-145 {
+  padding: 145px 0;
+}
+
+.py-px-150 {
+  padding: 150px 0;
+}
+
+.py-px-155 {
+  padding: 155px 0;
+}
+
+.py-px-160 {
+  padding: 160px 0;
+}
+
+.py-px-165 {
+  padding: 165px 0;
+}
+
+.py-px-170 {
+  padding: 170px 0;
+}
+
+.py-px-175 {
+  padding: 175px 0;
+}
+
+.py-px-180 {
+  padding: 180px 0;
+}
+
+.py-px-185 {
+  padding: 185px 0;
+}
+
+.py-px-190 {
+  padding: 190px 0;
+}
+
+.py-px-195 {
+  padding: 195px 0;
+}
+
+.py-px-200 {
+  padding: 200px 0;
+}
+
+.py-px-205 {
+  padding: 205px 0;
+}
+
+.py-px-210 {
+  padding: 210px 0;
+}
+
+.py-px-215 {
+  padding: 215px 0;
+}
+
+.py-px-220 {
+  padding: 220px 0;
+}
+
+.py-px-225 {
+  padding: 225px 0;
+}
+
+.py-px-230 {
+  padding: 230px 0;
+}
+
+.py-px-235 {
+  padding: 235px 0;
+}
+
+.py-px-240 {
+  padding: 240px 0;
+}
+
+.py-px-245 {
+  padding: 245px 0;
+}
+
+.py-px-250 {
+  padding: 250px 0;
+}
+
+.py-px-255 {
+  padding: 255px 0;
+}
+
+.py-px-260 {
+  padding: 260px 0;
+}
+
+.py-px-265 {
+  padding: 265px 0;
+}
+
+.py-px-270 {
+  padding: 270px 0;
+}
+
+.py-px-275 {
+  padding: 275px 0;
+}
+
+.py-px-280 {
+  padding: 280px 0;
+}
+
+.py-px-285 {
+  padding: 285px 0;
+}
+
+.py-px-290 {
+  padding: 290px 0;
+}
+
+.py-px-295 {
+  padding: 295px 0;
+}
+
+.py-px-300 {
+  padding: 300px 0;
+}
+
+.py-px-305 {
+  padding: 305px 0;
+}
+
+.py-px-310 {
+  padding: 310px 0;
+}
+
+.py-px-315 {
+  padding: 315px 0;
+}
+
+.py-px-320 {
+  padding: 320px 0;
+}
+
+.py-px-325 {
+  padding: 325px 0;
+}
+
+.py-px-330 {
+  padding: 330px 0;
+}
+
+.py-px-335 {
+  padding: 335px 0;
+}
+
+.py-px-340 {
+  padding: 340px 0;
+}
+
+.py-px-345 {
+  padding: 345px 0;
+}
+
+.py-px-350 {
+  padding: 350px 0;
+}
+
+.py-px-355 {
+  padding: 355px 0;
+}
+
+.py-px-360 {
+  padding: 360px 0;
+}
+
+.py-px-365 {
+  padding: 365px 0;
+}
+
+.py-px-370 {
+  padding: 370px 0;
+}
+
+.py-px-375 {
+  padding: 375px 0;
+}
+
+.py-px-380 {
+  padding: 380px 0;
+}
+
+.py-px-385 {
+  padding: 385px 0;
+}
+
+.py-px-390 {
+  padding: 390px 0;
+}
+
+.py-px-395 {
+  padding: 395px 0;
+}
+
+.py-px-400 {
+  padding: 400px 0;
+}
+
+.py-px-405 {
+  padding: 405px 0;
+}
+
+.py-px-410 {
+  padding: 410px 0;
+}
+
+.py-px-415 {
+  padding: 415px 0;
+}
+
+.py-px-420 {
+  padding: 420px 0;
+}
+
+.py-px-425 {
+  padding: 425px 0;
+}
+
+.py-px-430 {
+  padding: 430px 0;
+}
+
+.py-px-435 {
+  padding: 435px 0;
+}
+
+.py-px-440 {
+  padding: 440px 0;
+}
+
+.py-px-445 {
+  padding: 445px 0;
+}
+
+.py-px-450 {
+  padding: 450px 0;
+}
+
+.py-px-455 {
+  padding: 455px 0;
+}
+
+.py-px-460 {
+  padding: 460px 0;
+}
+
+.py-px-465 {
+  padding: 465px 0;
+}
+
+.py-px-470 {
+  padding: 470px 0;
+}
+
+.py-px-475 {
+  padding: 475px 0;
+}
+
+.py-px-480 {
+  padding: 480px 0;
+}
+
+.py-px-485 {
+  padding: 485px 0;
+}
+
+.py-px-490 {
+  padding: 490px 0;
+}
+
+.py-px-495 {
+  padding: 495px 0;
+}
+
+.py-px-500 {
+  padding: 500px 0;
+}
+
 .mx-px-0 {
   margin: 0 0px;
 }
@@ -13495,6 +13897,58 @@ header {
 }
 .scale:hover {
   transform: scale(1.2, 1.2);
+}
+
+.fondo-s1 {
+  background-image: url(../imagenes/portada2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+}
+
+.fondo-s4 {
+  background-image: url(../imagenes/21.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+h1, .h1 {
+  font-family: "Mukta", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(32, 149, 97);
+  font-weight: 800;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .h1-main {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: max-content;
+    border-radius: 2px;
+    padding: 0;
+    line-height: 90px;
+    font-size: 3rem;
+    text-shadow: black 0 0 5px;
+  }
+}
+@media (min-width: 1024px) {
+  .h1-main {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    text-shadow: white;
+    line-height: 90px;
+    text-shadow: rgba(0, 0, 0, 0.6196078431) 0px 0px 6px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
