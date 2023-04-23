@@ -7,7 +7,11 @@
         height: auto;
     }
 }
-
+@for $i from 0 through 100{
+    .mb-#{$i*5}{
+        margin-bottom: 5px * $i;
+    }
+}
 //each para colores
 $color-array:(
             "negro":$negro,                                   
@@ -26,4 +30,22 @@ $color-array:(
     .bg-#{$color-name}{
         background: $color-value;
     }
+}
+
+//mixin
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column-center{
+    @include flex-column-center;
 }
