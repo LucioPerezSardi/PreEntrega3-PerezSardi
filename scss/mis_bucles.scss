@@ -60,6 +60,9 @@ $color-array:(
     .hover-#{$color-name}:hover{
         color: $color-value;
     }
+    .border-#{$color-name}{
+        border-top: solid 2px $color-value;
+    }
 }
 
 //mixin

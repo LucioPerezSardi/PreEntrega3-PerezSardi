@@ -13249,6 +13249,10 @@ textarea.form-control-lg {
   color: rgb(21, 21, 21);
 }
 
+.border-negro {
+  border-top: solid 2px rgb(21, 21, 21);
+}
+
 .txt-blanco {
   color: white;
 }
@@ -13259,6 +13263,10 @@ textarea.form-control-lg {
 
 .hover-blanco:hover {
   color: white;
+}
+
+.border-blanco {
+  border-top: solid 2px white;
 }
 
 .txt-color-ppal {
@@ -13273,6 +13281,10 @@ textarea.form-control-lg {
   color: hsl(136, 57%, 30%);
 }
 
+.border-color-ppal {
+  border-top: solid 2px hsl(136, 57%, 30%);
+}
+
 .txt-color-sec {
   color: rgb(2, 90, 50);
 }
@@ -13283,6 +13295,10 @@ textarea.form-control-lg {
 
 .hover-color-sec:hover {
   color: rgb(2, 90, 50);
+}
+
+.border-color-sec {
+  border-top: solid 2px rgb(2, 90, 50);
 }
 
 .txt-color-ter {
@@ -13297,6 +13313,10 @@ textarea.form-control-lg {
   color: rgb(32, 149, 97);
 }
 
+.border-color-ter {
+  border-top: solid 2px rgb(32, 149, 97);
+}
+
 .txt-dark-green {
   color: rgb(22, 71, 60);
 }
@@ -13307,6 +13327,10 @@ textarea.form-control-lg {
 
 .hover-dark-green:hover {
   color: rgb(22, 71, 60);
+}
+
+.border-dark-green {
+  border-top: solid 2px rgb(22, 71, 60);
 }
 
 .txt-neon-green {
@@ -13321,6 +13345,10 @@ textarea.form-control-lg {
   color: rgb(24, 220, 40);
 }
 
+.border-neon-green {
+  border-top: solid 2px rgb(24, 220, 40);
+}
+
 .txt-gris {
   color: rgb(94, 94, 94);
 }
@@ -13333,6 +13361,10 @@ textarea.form-control-lg {
   color: rgb(94, 94, 94);
 }
 
+.border-gris {
+  border-top: solid 2px rgb(94, 94, 94);
+}
+
 .txt-blanco-sucio {
   color: rgb(228, 228, 228);
 }
@@ -13343,6 +13375,10 @@ textarea.form-control-lg {
 
 .hover-blanco-sucio:hover {
   color: rgb(228, 228, 228);
+}
+
+.border-blanco-sucio {
+  border-top: solid 2px rgb(228, 228, 228);
 }
 
 .flex-column-center {
