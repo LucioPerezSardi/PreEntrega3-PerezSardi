@@ -13440,7 +13440,7 @@ header {
   background-color: rgb(21, 21, 21);
 }
 
-.mi-navlink {
+.mi-navlink, .mi-navlink-ubi {
   display: block;
   padding: 10px;
   font-size: 0.85em;
@@ -13449,17 +13449,17 @@ header {
   text-decoration: none;
   transition: all 0.5s ease;
 }
-.mi-navlink:hover {
+.mi-navlink:hover, .mi-navlink-ubi:hover {
   color: hsl(136, 57%, 30%);
   border-radius: 10px;
   background-color: rgb(24, 24, 24);
 }
 @media (min-width: 1024px) {
-  .mi-navlink:hover {
+  .mi-navlink:hover, .mi-navlink-ubi:hover {
     letter-spacing: 0.5px;
   }
 }
-.mi-navlink:active {
+.mi-navlink:active, .mi-navlink-ubi:active {
   color: hsl(136, 57%, 30%);
   border-radius: 10px;
   transform: translateY(3px);
@@ -13467,9 +13467,13 @@ header {
   background-color: rgb(24, 24, 24);
 }
 @media (min-width: 1024px) {
-  .mi-navlink:active {
+  .mi-navlink:active, .mi-navlink-ubi:active {
     letter-spacing: 0.5px;
   }
+}
+
+.mi-navlink-ubi {
+  color: rgb(94, 94, 94);
 }
 
 .mi-navlogo {

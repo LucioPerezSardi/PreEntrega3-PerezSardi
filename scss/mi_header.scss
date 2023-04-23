@@ -27,6 +27,11 @@ header{background-color: $negro;}
     }      
 }
 
+.mi-navlink-ubi{
+    @extend .mi-navlink;
+    color: $gris;
+}
+
 .mi-navlogo{
     display: block;
     width: auto;
@@ -40,3 +45,4 @@ header{background-color: $negro;}
         height: auto;
     }      
 }
+
