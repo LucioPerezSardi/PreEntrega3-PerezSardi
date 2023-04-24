@@ -13783,6 +13783,22 @@ textarea.form-control-lg {
   border-top: solid 2px rgb(228, 228, 228);
 }
 
+.txt-color-cuat {
+  color: rgb(92, 204, 133);
+}
+
+.bg-color-cuat {
+  background: rgb(92, 204, 133);
+}
+
+.hover-color-cuat:hover {
+  color: rgb(92, 204, 133);
+}
+
+.border-color-cuat {
+  border-top: solid 2px rgb(92, 204, 133);
+}
+
 .flex-column-center, .flex-column-center-align-start, .flex-column-center-justify-start {
   display: flex;
   flex-direction: column;
@@ -14060,9 +14076,13 @@ h1, .h1 {
   color: rgb(37, 131, 89);
 }
 
-.fondo-texto {
+.fondo-texto, .fondo-texto-alt {
   background-color: rgba(241, 233, 233, 0.52);
   border-radius: 5px;
+}
+
+.fondo-texto-alt {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 h2, .h2 {

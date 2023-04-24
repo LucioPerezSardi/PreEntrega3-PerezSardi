@@ -54,7 +54,8 @@ $color-array:(
             "dark-green":$dark-green,
             "neon-green":$neon-green,
             "gris":$gris,
-            "blanco-sucio":$blanco-sucio
+            "blanco-sucio":$blanco-sucio,
+            "color-cuat":$color-cuat
         );
 @each $color-name, $color-value in $color-array{
     .txt-#{$color-name}{
