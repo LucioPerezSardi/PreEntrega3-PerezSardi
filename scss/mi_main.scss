@@ -111,7 +111,18 @@ h1{
     color: $green-alt;
 }
 
-.mobile-flex-center{
-    display: flex;
+//Agrotecnologia
+.fondo-texto{
+    background-color: $bg-gris;
+    border-radius: 5px;
 }
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.txt-justify{
+    text-align: justify;
+}
+
+
 

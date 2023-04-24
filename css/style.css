@@ -13783,7 +13783,7 @@ textarea.form-control-lg {
   border-top: solid 2px rgb(228, 228, 228);
 }
 
-.flex-column-center, .flex-column-center-justify-start {
+.flex-column-center, .flex-column-center-align-start, .flex-column-center-justify-start {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13803,6 +13803,10 @@ textarea.form-control-lg {
 
 .flex-column-center-justify-start {
   justify-content: start;
+}
+
+.flex-column-center-align-start {
+  align-items: start;
 }
 
 body {
@@ -13876,6 +13880,14 @@ p {
 
 .border-bottom {
   border-bottom: 2px rgb(94, 94, 94) solid;
+}
+
+.border-right {
+  border-right: 2px rgb(94, 94, 94) solid;
+}
+
+.border-left {
+  border-right: 2px rgb(94, 94, 94) solid;
 }
 
 header {
@@ -14048,8 +14060,18 @@ h1, .h1 {
   color: rgb(37, 131, 89);
 }
 
-.mobile-flex-center {
-  display: flex;
+.fondo-texto {
+  background-color: rgba(241, 233, 233, 0.52);
+  border-radius: 5px;
+}
+
+h2, .h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.txt-justify {
+  text-align: justify;
 }
 
 .button, .button-nosotros, .button-soporte {

@@ -99,3 +99,8 @@ $color-array:(
     @extend .flex-column-center;
     justify-content: start;
 }
+
+.flex-column-center-align-start{
+    @extend .flex-column-center;
+    align-items: start;
+}
