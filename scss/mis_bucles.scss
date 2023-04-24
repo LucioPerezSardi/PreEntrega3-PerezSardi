@@ -95,3 +95,7 @@ $color-array:(
     @extend .flex-row-center;
     justify-content: flex-start;
 }
+.flex-column-center-justify-start{
+    @extend .flex-column-center;
+    justify-content: start;
+}

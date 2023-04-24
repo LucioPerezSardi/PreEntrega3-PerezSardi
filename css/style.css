@@ -13783,7 +13783,7 @@ textarea.form-control-lg {
   border-top: solid 2px rgb(228, 228, 228);
 }
 
-.flex-column-center {
+.flex-column-center, .flex-column-center-justify-start {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13799,6 +13799,10 @@ textarea.form-control-lg {
 
 .flex-row-start {
   justify-content: flex-start;
+}
+
+.flex-column-center-justify-start {
+  justify-content: start;
 }
 
 body {
@@ -13836,6 +13840,42 @@ p {
 }
 .wp:hover {
   width: 3.5em;
+}
+
+.fmerri {
+  font-family: "Merriweather", serif;
+}
+
+.fontmarcellus {
+  font-family: "Marcellus", serif;
+}
+
+.fontSourceSansPro {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.fontOpenSansInclinado {
+  font-family: "Open Sans", sans-serif;
+}
+
+.fontSourceSans3 {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.fontMukta {
+  font-family: "Mukta", sans-serif;
+}
+
+.fontRaleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.border-top {
+  border-top: 2px rgb(94, 94, 94) solid;
+}
+
+.border-bottom {
+  border-bottom: 2px rgb(94, 94, 94) solid;
 }
 
 header {
@@ -13907,6 +13947,11 @@ header {
   height: 700px;
 }
 
+.fondo-s2 {
+  background-image: url(../imagenes/fondo-minimalista-s2.jpg);
+  background-repeat: repeat;
+}
+
 .fondo-s4 {
   background-image: url(../imagenes/21.png);
   background-size: cover;
@@ -13973,6 +14018,40 @@ h1, .h1 {
     align-items: flex-end;
   }
 }
+.distr-caract {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .distr-caract {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .distr-caract {
+    justify-content: center;
+  }
+}
+
+.caracteristica {
+  margin: 38px 40px;
+  padding: 20px;
+  width: 285px;
+  background-color: rgba(37, 34, 34, 0.712);
+  border-radius: 20px;
+}
+
+.titulo-caract {
+  font-size: 2rem;
+  margin: 30px 0 0px 0;
+  color: rgb(37, 131, 89);
+}
+
+.mobile-flex-center {
+  display: flex;
+}
+
 .button, .button-nosotros, .button-soporte {
   padding: 17px 18px;
   border-radius: 50px;

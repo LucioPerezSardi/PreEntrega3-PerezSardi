@@ -34,3 +34,18 @@ p{
     transition: all .5s ease;
     &:hover{width: 3.5em;}
 }
+
+//fuentes
+.fmerri{font-family: 'Merriweather', serif;}
+.fontmarcellus{font-family: 'Marcellus', serif;}
+.fontSourceSansPro{font-family: 'Source Sans Pro', sans-serif;}
+.fontOpenSansInclinado{font-family: 'Open Sans', sans-serif;
+}
+.fontSourceSans3{font-family: 'Source Sans 3', sans-serif;
+}
+.fontMukta{font-family: 'Mukta', sans-serif;}
+.fontRaleway{font-family: 'Raleway', sans-serif;}
+
+//bordes
+.border-top{border-top: 2px $gris solid;}
+.border-bottom{border-bottom: 2px $gris solid;}
