@@ -13767,6 +13767,22 @@ textarea.form-control-lg {
   border-top: solid 2px rgb(94, 94, 94);
 }
 
+.txt-bg-gris {
+  color: rgba(241, 233, 233, 0.52);
+}
+
+.bg-bg-gris {
+  background: rgba(241, 233, 233, 0.52);
+}
+
+.hover-bg-gris:hover {
+  color: rgba(241, 233, 233, 0.52);
+}
+
+.border-bg-gris {
+  border-top: solid 2px rgba(241, 233, 233, 0.52);
+}
+
 .txt-blanco-sucio {
   color: rgb(228, 228, 228);
 }
@@ -13797,6 +13813,22 @@ textarea.form-control-lg {
 
 .border-color-cuat {
   border-top: solid 2px rgb(92, 204, 133);
+}
+
+.txt-bg-negro {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-bg-negro {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hover-bg-negro:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.border-bg-negro {
+  border-top: solid 2px rgba(0, 0, 0, 0.5);
 }
 
 .flex-column-center, .flex-column-center-align-start, .flex-column-center-justify-start {
@@ -13888,6 +13920,10 @@ p {
 
 .fontRaleway {
   font-family: "Raleway", sans-serif;
+}
+
+.txt-justify {
+  text-align: justify;
 }
 
 .border-top {
@@ -14090,10 +14126,6 @@ h2, .h2 {
   font-weight: 700;
 }
 
-.txt-justify {
-  text-align: justify;
-}
-
 .button, .button-nosotros, .button-soporte {
   padding: 17px 18px;
   border-radius: 50px;
@@ -14147,6 +14179,50 @@ h2, .h2 {
 .button-nosotros:active {
   letter-spacing: 3px;
   border: 0;
+}
+
+.fondoEmpresa {
+  background-image: url(../imagenes/21.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.parrafoEmpresa {
+  padding: 60px;
+  text-align: justify;
+  margin: 0 0 56px 0;
+  font-size: 25px;
+  color: #a9b1af;
+}
+
+@media (max-width: 768px) {
+  .parrafoEmpresa {
+    margin: 0;
+    padding: 20px;
+  }
+}
+.tituloMisVis {
+  font-size: 5em;
+  color: #008062;
+  margin: 0 0 30px 0;
+  font-weight: 800;
+}
+
+.mision, .vision {
+  background-color: rgba(8, 16, 21, 0.69);
+  width: 80%;
+  height: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgRedonda {
+  border-radius: 100%;
+  border: #a9a3a3 solid 1px;
+  box-shadow: 0px 0px 20px hsl(136, 57%, 30%);
 }
 
 /*# sourceMappingURL=style.css.map */
