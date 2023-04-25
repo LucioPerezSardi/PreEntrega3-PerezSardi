@@ -59,3 +59,12 @@
         border: 0;
     }
 }
+
+//botones productos y servicios
+.button-descuentos{
+    @extend .button-soporte;
+}
+
+.button-todoslosproductos{
+    @extend .button-nosotros;
+}

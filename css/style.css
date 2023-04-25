@@ -14637,6 +14637,12 @@ h2, .h2 {
   height: 630px;
 }
 
+.fondo-prod-s2 {
+  background-image: url(../imagenes/fondo-minimalista-s2.jpg);
+  background-size: auto;
+  padding-top: 40px;
+}
+
 @media (max-width: 768px) {
   .center-button {
     display: flex;
@@ -14650,6 +14656,16 @@ h2, .h2 {
     flex-direction: row;
     justify-content: center;
   }
+}
+
+.mi-card {
+  border-radius: 25px;
+  padding: 25px;
+  border: none;
+  margin: 37px 0 25px 0;
+  box-shadow: inset 0px 0px 10px rgb(51, 51, 55);
+  background-color: rgba(45, 40, 40, 0.98);
+  width: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
