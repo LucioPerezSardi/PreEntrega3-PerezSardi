@@ -21,6 +21,12 @@
 }
 
 @for $i from 0 through 100{
+    .mt-px-#{$i*5}{
+        margin-top: 5px * $i;
+    }
+}
+
+@for $i from 0 through 100{
     .my-px-#{$i*5}{
         margin: 5px * $i 0;
     }
