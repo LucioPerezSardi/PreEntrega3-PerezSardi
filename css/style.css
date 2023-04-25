@@ -14210,7 +14210,7 @@ h2, .h2 {
 
 .mision, .vision {
   background-color: rgba(8, 16, 21, 0.69);
-  width: 80%;
+  width: 90%;
   height: 80%;
   border-radius: 15px;
   display: flex;
@@ -14223,6 +14223,7 @@ h2, .h2 {
   border-radius: 100%;
   border: #a9a3a3 solid 1px;
   box-shadow: 0px 0px 20px hsl(136, 57%, 30%);
+  width: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
