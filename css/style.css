@@ -14235,6 +14235,22 @@ textarea.form-control-lg {
   border-top: solid 2px rgba(0, 0, 0, 0.5);
 }
 
+.txt-gris-alt {
+  color: rgb(200, 200, 200);
+}
+
+.bg-gris-alt {
+  background: rgb(200, 200, 200);
+}
+
+.hover-gris-alt:hover {
+  color: rgb(200, 200, 200);
+}
+
+.border-gris-alt {
+  border-top: solid 2px rgb(200, 200, 200);
+}
+
 .flex-column-center, .flex-column-center-align-start, .flex-column-center-justify-start {
   display: flex;
   flex-direction: column;
@@ -14690,6 +14706,94 @@ h2, .h2 {
   background-image: url(../imagenes/30.png);
   background-size: cover;
   background-position: center;
+}
+
+.fondo-contacto {
+  background-image: url(../imagenes/campo-maiz.webp);
+  background-size: cover;
+}
+
+.box-shadow {
+  background-color: rgba(0, 0, 0, 0.71);
+  box-shadow: inset 0px 0px 1px rgb(51, 51, 55);
+  width: 100%;
+  padding: 0 0 25px 0;
+}
+
+.cuadro-grande {
+  border-radius: 25px;
+  padding: 25px;
+  border: none;
+  margin: 70px 0 90px 0;
+  box-shadow: inset 0px 0px 10px rgb(51, 51, 55);
+  background-color: rgba(23, 23, 23, 0.98);
+}
+@media (max-width: 768px) {
+  .cuadro-grande {
+    width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  .cuadro-grande {
+    width: 70%;
+  }
+}
+
+.cuadro {
+  display: flex;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  margin: 15px 0 10px 0;
+  border: none;
+  outline: none;
+  color: rgb(198, 198, 198);
+  background-color: rgb(23, 23, 23);
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  width: 90%;
+}
+
+@media (min-width: 1024px) {
+  .gridForm {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "formIzq formDer" "formAb formAb";
+    align-items: center;
+  }
+  .formIzq {
+    grid-area: formIzq;
+  }
+  .formDer {
+    grid-area: formDer;
+  }
+  .formAb {
+    grid-area: formAb;
+  }
+  .consultaHeight {
+    height: 13em;
+  }
+}
+.usuario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5em 1em 7em 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  border-radius: 25px;
+  transition: 0.4s ease-in-out;
+}
+.usuario:hover {
+  transform: scale(1.03);
+  border: 1px solid black;
+  z-index: 0;
+}
+
+.z-index-up {
+  z-index: 50;
 }
 
 /*# sourceMappingURL=style.css.map */

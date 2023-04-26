@@ -63,7 +63,8 @@ $color-array:(
             "bg-gris":$bg-gris,
             "blanco-sucio":$blanco-sucio,
             "color-cuat":$color-cuat,
-            "bg-negro":$bg-negro
+            "bg-negro":$bg-negro,
+            "gris-alt":$gris-alt
         );
 @each $color-name, $color-value in $color-array{
     .txt-#{$color-name}{
