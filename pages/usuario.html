@@ -59,11 +59,42 @@
                   </nav>
                 </div>
         </header>
-        <main>
-          <img src="../imagenes/Corte-surco-a-surco.png" alt="">
+        <main class="container-fluid fondoUsuario">
+          <div class="row">
+            <div class="col-lg-12 col-12 flex-column-center">
+              <form class="usuario">
+                <div class="flex-row-center">
+                    <div>
+                        <img class="imglogin" src="../imagenes/login-perfil.png" alt="iconoPassword">
+                    </div>
+                    <p class="heading fontSourceSansPro">Login</p>
+                </div>
+                <div class="field flex-row-center">
+                  <input autocomplete="on" placeholder="Nombre de Usuario o e-mail" class="input-field" type="text">
+                </div>
+                <div class="field flex-row-center">
+                    <div>
+                        <img class="input-icon" src="../imagenes/candado.png" alt="iconoPassword">
+                    </div>
+                    <input placeholder="Password" class="input-field" type="password">
+                </div>
+                <div class="flex-row-center mt-5">
+                <button class="button-login">
+                  Login
+                </button>
+                <button class="button-registrarse">
+                  Registrarse
+                </button>
+                </div>
+                <button class="button-olvide mt-2">
+                  Olvidé mi contraseña
+                </button>
+              </form>
+            </div>
+          </div>
         </main>
         <!-- pie de pagina -->
-        <footer class="container-fluid my-4 border-gris mx-0">
+        <footer class="container-fluid mb-4 border-gris mx-0">
           <div class="row">
             <!-- columna 1 -->
             <div class="col-lg-4 col-12 flex-column-center">

@@ -89,7 +89,7 @@
 
 //enviar
 .enviar:hover {background-color: $dark-green;
-    color: white;}
+    color: $blanco;}
 .enviar{
     margin: 3em;
     padding: 0.5em;
@@ -99,11 +99,11 @@
     outline: none;
     transition: .4s ease-in-out;
     background-color: #252525;
-    color: white;
+    color: $blanco;
     transition: all .5s ease;
     &:hover {
         background-color: $dark-green;
-        color: white;
+        color: $blanco;
     }
     &:active {
         color: $color-ppal;
@@ -112,6 +112,62 @@
         transition: 100ms;
        }
 }
+
+
+//botones login
+.button-login {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: $blanco;
+  text-align: center;
+  width: 50%;
+  &:hover {
+    background-color:$dark-green;
+    color: $blanco;
+  }
+}
+
+.button-registrarse {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: $blanco;
+  width: 50%;
+  &:hover {
+    background-color:$dark-green;
+    color: $blanco;
+  }
+}
+
+
+.button-olvide {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: $blanco;
+  width: 100%;
+  &:hover {
+    background-color:$dark-green;
+    color: $blanco;
+  }
+}
+
 
 
 //no soy un robot

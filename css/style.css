@@ -14647,6 +14647,58 @@ h2, .h2 {
   transition: 100ms;
 }
 
+.button-login {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  background-color: #252525;
+  color: white;
+  text-align: center;
+  width: 50%;
+}
+.button-login:hover {
+  background-color: rgb(22, 71, 60);
+  color: white;
+}
+
+.button-registrarse {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  background-color: #252525;
+  color: white;
+  width: 50%;
+}
+.button-registrarse:hover {
+  background-color: rgb(22, 71, 60);
+  color: white;
+}
+
+.button-olvide {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  background-color: #252525;
+  color: white;
+  width: 100%;
+}
+.button-olvide:hover {
+  background-color: rgb(22, 71, 60);
+  color: white;
+}
+
 .checkbox-wrapper-12 {
   position: relative;
 }
@@ -14962,9 +15014,12 @@ h2, .h2 {
   margin-right: 15px;
 }
 
+.fondoUsuario {
+  background-image: url(../imagenes/Corte-surco-a-surco.png);
+  background-size: cover;
+}
+
 .usuario {
-  display: flex;
-  flex-direction: column;
   gap: 10px;
   margin: 5em 1em 7em 1em;
   padding-left: 2em;
@@ -14974,6 +15029,16 @@ h2, .h2 {
   border-radius: 25px;
   transition: 0.4s ease-in-out;
 }
+@media (min-width: 1024px) {
+  .usuario {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .usuario {
+    width: 80%;
+  }
+}
 .usuario:hover {
   transform: scale(1.03);
   border: 1px solid black;
@@ -14982,6 +15047,45 @@ h2, .h2 {
 
 .z-index-up {
   z-index: 50;
+}
+
+.imglogin {
+  width: auto;
+  height: 1.5em;
+}
+
+.heading {
+  text-align: center;
+  margin: 2em 2em 2em 0.4em;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Source Sans Pro", sans-serif;
+  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+  font-weight: 300;
+}
+
+.field {
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: rgb(37, 131, 89);
+  background-color: rgb(23, 23, 23);
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+.input-icon {
+  height: 1.2em;
+  width: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
