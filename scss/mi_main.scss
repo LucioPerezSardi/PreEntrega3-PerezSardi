@@ -171,3 +171,9 @@ h2{
 .accordion-item-right{
     @extend .me-px-150;
 }
+
+.mobile-center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

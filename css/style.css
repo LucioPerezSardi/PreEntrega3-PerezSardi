@@ -15394,6 +15394,12 @@ h2, .h2 {
   }
 }
 
+.mobile-center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button, .button-nosotros, .button-todoslosproductos, .button-soporte, .button-descuentos {
   padding: 17px 18px;
   border-radius: 50px;
