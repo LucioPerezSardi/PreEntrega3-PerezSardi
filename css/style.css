@@ -15400,6 +15400,18 @@ h2, .h2 {
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .posicion-link-productos {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .posicion-link-productos {
+    margin-left: 150px;
+  }
+}
+
 .button, .button-nosotros, .button-todoslosproductos, .button-soporte, .button-descuentos {
   padding: 17px 18px;
   border-radius: 50px;
