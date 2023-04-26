@@ -126,6 +126,26 @@ h2{
     font-weight: 700;
 }
 
+.accordion-button{
+    color: $blanco;
+    background-color: rgb(35, 107, 75);
+    box-shadow: rgba(212, 206, 206, 0.555) 0 0 8px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
 
+.accordion-button:not(.collapsed) {
+    color: $blanco;
+    background-color: rgb(35, 107, 75);
+    box-shadow: rgba(212, 206, 206, 0.555) 0 0 8px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
 
-
+.accordion-item {
+    color: $blanco-sucio;
+    background-color: rgb(39, 47, 38);
+    border: var(--bs-accordion-border-width) solid rgb(35, 107, 75);
+    font-family: 'Lato', sans-serif;
+    box-shadow: rgba(212, 206, 206, 0.555) 0 0 8px;
+}
