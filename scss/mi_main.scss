@@ -149,3 +149,25 @@ h2{
     font-family: 'Lato', sans-serif;
     box-shadow: rgba(212, 206, 206, 0.555) 0 0 8px;
 }
+
+.accordion{
+    @media (max-width:768px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+}
+.mobile-dimension{
+    @media (max-width:768px){
+    width: 80%;
+    margin: 0;
+    }
+}
+.accordion-item-left{
+    @extend .ms-px-150;
+}
+
+.accordion-item-right{
+    @extend .me-px-150;
+}

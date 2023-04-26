@@ -12143,7 +12143,7 @@ textarea.form-control-lg {
   margin-right: 145px;
 }
 
-.me-px-150 {
+.me-px-150, .accordion-item-right {
   margin-right: 150px;
 }
 
@@ -12547,7 +12547,7 @@ textarea.form-control-lg {
   margin-left: 145px;
 }
 
-.ms-px-150 {
+.ms-px-150, .accordion-item-left {
   margin-left: 150px;
 }
 
@@ -15376,6 +15376,22 @@ h2, .h2 {
   border: var(--bs-accordion-border-width) solid rgb(35, 107, 75);
   font-family: "Lato", sans-serif;
   box-shadow: rgba(212, 206, 206, 0.555) 0 0 8px;
+}
+
+@media (max-width: 768px) {
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-dimension {
+    width: 80%;
+    margin: 0;
+  }
 }
 
 .button, .button-nosotros, .button-todoslosproductos, .button-soporte, .button-descuentos {
