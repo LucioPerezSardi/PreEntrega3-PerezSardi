@@ -40,7 +40,25 @@
     width: 90%;
 }
 
-//grid para solucionar problema de boots en forms
+//ajuste contacto
+.ajuste-contacto {
+    gap: 10px;
+    margin: 5em 1em 7em 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    &:hover {
+    transform: scale(1.03);
+    border: 1px solid black;
+    z-index: 0;
+    }
+}
+.z-index-up{z-index: 50;}
+
+//grid para solucionar problema que tengo en boots con mi forms
 @media (min-width:1024px){
     .gridForm{
         display: grid;
@@ -54,5 +72,20 @@
     .formIzq{grid-area: formIzq;}
     .formDer{grid-area: formDer;}
     .formAb{grid-area: formAb;}
+    //height consulta desktop
     .consultaHeight{height: 13em;}
     }
+    //height consulta mobile
+@media (max-width:768px){
+    .consultaHeight{
+        height: 13em;
+    }
+}
+
+    //no soy un bot
+.noBot{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.noBot label{margin-right: 15px;}
