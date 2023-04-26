@@ -68,3 +68,21 @@
 .button-todoslosproductos{
     @extend .button-nosotros;
 }
+
+.button-service{
+    margin: 0;
+    padding: 3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525c1;
+    color: $blanco;
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    border: 2px $blanco solid;
+    &:hover{
+        background-color: $dark-green;
+    }
+}

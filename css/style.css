@@ -14585,6 +14585,24 @@ h2, .h2 {
   border: 0;
 }
 
+.button-service {
+  margin: 0;
+  padding: 3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  background-color: rgba(37, 37, 37, 0.7568627451);
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  height: 100%;
+  border: 2px white solid;
+}
+.button-service:hover {
+  background-color: rgb(22, 71, 60);
+}
+
 .fondoEmpresa {
   background-image: url(../imagenes/21.png);
   background-size: cover;
@@ -14666,6 +14684,12 @@ h2, .h2 {
   box-shadow: inset 0px 0px 10px rgb(51, 51, 55);
   background-color: rgba(45, 40, 40, 0.98);
   width: 90%;
+}
+
+.fondo-servicio {
+  background-image: url(../imagenes/30.png);
+  background-size: cover;
+  background-position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
