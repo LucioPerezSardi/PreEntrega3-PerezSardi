@@ -63,73 +63,50 @@
                 </div>
         </header>
         <main class="container-fluid fondo-contacto border-bottom border-top">
-          <div class="row">
-            <div class="col-12 col-lg-12 box-shadow py-4">
-              <p class="fontSourceSansPro text-center fs-1 fw-light txt-gris-alt">
-                ¿Preguntas?
-              </p>
-              <p class="fontSourceSansPro text-center fs-1 fw-normal txt-gris-alt">
-                Realice una consulta o solicite un servicio a continuación
-              </p>
-            </div>
-          </div>
-          <div class="container-fluid">
-            <div class="row flex-row-center">
-              <form action="#" class="col-12 col-lg-6 cuadro-grande ajuste-contacto">
-                  <div class="formIzq">
-                    <div class="text-start p-px-10 m-px-10">
-                      <label for="nombre">Nombre</label>
-                          <br>
-                      <input class="cuadro" name="nombre" id="nombre">
-                    </div>
-                    <div class="text-start p-px-10 m-px-10">
-                      <label for="email">E-mail</label>
-                          <br>
-                      <input class="cuadro" type="email" name="email" id="email">
-                    </div>
-                    <div class="text-start p-px-10 m-px-10">
-                      <label for="phone_number">Teléfono</label>
-                          <br>
-                      <input class="cuadro" type="tel" name="phone_number" id="phone_number">
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-6 text-start p-px-10 m-px-10">
-                    <label for="Consulta">Consulta</label>
-                        <br>
-                    <input class="cuadro consultaHeight" type="text" name="consulta" id="consulta">
-                  </div>
-                <div class="col-12 col-lg-12 mt-5">
-                    <div class="noBot">
-                        <label class="fontMukta" for="bot">
-                            No soy un robot
-                        </label>
-                        <div class="checkbox-wrapper-12">
-                            <div class="cbx">
-                              <input id="cbx-12" type="checkbox">
-                              <label for="cbx-12"></label>
-                              <svg width="15" height="14" viewBox="0 0 15 14" fill="none">
-                                <path d="M2 8.36364L6.23077 12L13 2"></path>
-                              </svg>
-                            </div>
-                            
-                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                              <defs>
-                                <filter id="goo-12">
-                                  <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"></feGaussianBlur>
-                                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></feColorMatrix>
-                                  <feBlend in="SourceGraphic" in2="goo-12"></feBlend>
-                                </filter>
-                              </defs>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-12">
-                    <input type="submit" value="ENVIAR" class="enviar">
-                    </div>
+          <section class="row">
+            <h2 class="col-lg-12 col-12 p-3 text-center fondo-texto-alt txt-color-ter">
+              Principales tecnologías utilizadas en el agro:
+            </h2>
+            <!-- acordeon 1 -->
+            <div class="col-lg-6 col-12 py-5 ps-5">
+              <div class="tecno1">
+                <div>
+                    <p class="fondoS4Ptitulo">Monitor de siembra</p>
+                    <p class="fondoS4Pparrafo" >El monitor de siembra es un sistema electrónico que permite controlar, en tiempo real, la dosificación de semillas que deposita la sembradora. Esto resulta posible gracias a los sensores instalados en la maquinaria.</p>
                 </div>
-              </form>
+                <div>
+                    <p class="fondoS4Ptitulo">Banderillero satelital</p>
+                    <p class="fondoS4Pparrafo" >Orientación por barra de luces para que el operador se mantenga siempre en la línea correcta.</p>
+                </div>
+                <div>
+                    <p class="fondoS4Ptitulo">Corte por sección para siembra</p>
+                    <p class="fondoS4Pparrafo" >Evita solapamiento en siembra y fertilización. Economiza cantidad de semillas y fertilizantes por hectáreas. Favorece el buen desarrollo de las plantas, ya que al no encimarse, no hay competencia entre sí.</p>
+                </div>
+              </div>
             </div>
-          </div>
+            <!-- Acordeon 2 -->
+            <div class="col-lg-6 col-12 py-5 pe-5">
+              <div class="tecno2">
+                <div>
+                    <p class="fondoS4Ptitulo">Piloto automático</p>
+                    <p class="fondoS4Pparrafo" >Es un sistema de guiado por la tecnología que dirige a la máquina automáticamente por el campo. El sistema de piloto automático, desarrollado para mejorar el rendimiento y la precisión de operación, ayuda a la navegación y se puede integrar completamente con otras funciones de los equipos de agricultura de precisión. </p>
+                </div>
+                <div>
+                    <p class="fondoS4Ptitulo">Control de pulverización</p>
+                    <p class="fondoS4Pparrafo" >Control automatizado de la pulverización para minimizar la superposición de los recursos de productos líquidos o evitar el exceso de aplicación.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-12 ps-5">
+              <div class="info despBoton">
+                <p>
+                  <a class="underline botonSimple txt-color-cuat hover-color-ter" href="pages/prodyserv.html">
+                    Conocer todos los productos y servicios
+                  </a>
+                </p>
+              </div>
+            </div>
+          </section>
         </main>
         <!-- pie de pagina -->
         <footer class="container-fluid my-4 border-gris mx-0">
