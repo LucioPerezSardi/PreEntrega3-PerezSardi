@@ -27,6 +27,22 @@
 }
 
 @for $i from 0 through 100{
+    .desktop-me-px-#{$i*5}{
+        @media (min-width:1024px){
+            margin-right: 5px * $i;
+        }
+    }
+}
+
+@for $i from 0 through 100{
+    .desktop-ms-px-#{$i*5}{
+        @media (min-width:1024px){
+            margin-left: 5px * $i;
+        }
+    }
+}
+
+@for $i from 0 through 100{
     .ms-px-#{$i*5}{
         margin-left: 5px * $i;
     }
